@@ -1,0 +1,7 @@
+pod "GTUIKitAdditions", :path => "../GTUIKitAdditions.podspec"
+
+target "Demo" do
+end
+
+target "DemoTests" do
+end
