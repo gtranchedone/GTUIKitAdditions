@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   #s.osx.deployment_target = '10.7'
   #s.dependency 'GTFoundation', '~> 0.1.0'
   
-  s.resources = 'Assets'
+  #s.resources = 'Assets'
   s.source_files = 'Classes/**/*'
   #s.ios.exclude_files = 'Classes/osx'
   #s.osx.exclude_files = 'Classes/ios'
