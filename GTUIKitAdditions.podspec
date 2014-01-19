@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "GTUIKitAdditions"
-  s.version      = "0.1.0"
+  s.version      = "0.1.1"
   s.summary      = "GTUIKitAdditions is a collection of classes that extend or add-up to those provided by Apple in UIKit."
   s.description  = <<-DESC
                     GTUIKitAdditions is a collection of classes that extend or add-up to those provided by Apple in UIKit.
