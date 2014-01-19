@@ -1,7 +1,7 @@
-pod "GTUIKitAdditions", :path => "../GTUIKitAdditions.podspec"
-
-target "GTUIKitAdditions" do
+target "GTUIKitAdditionsDemo" do
+  pod "GTUIKitAdditions", :path => "../GTUIKitAdditions.podspec"
 end
 
-target "GTUIKitAdditionsTests" do
+target "GTUIKitAdditionsDemoTests" do
+  pod "GTUIKitAdditions", :path => "../GTUIKitAdditions.podspec"
 end

@@ -1,0 +1,14 @@
+PODS:
+  - GTUIKitAdditions (0.1.0)
+
+DEPENDENCIES:
+  - GTUIKitAdditions (from `../GTUIKitAdditions.podspec`)
+
+EXTERNAL SOURCES:
+  GTUIKitAdditions:
+    :path: ../GTUIKitAdditions.podspec
+
+SPEC CHECKSUMS:
+  GTUIKitAdditions: 4b5262bc3ecfc24a0352ad8945131aa834f6e724
+
+COCOAPODS: 0.29.0

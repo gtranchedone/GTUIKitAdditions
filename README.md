@@ -20,6 +20,12 @@ GTUIKitAdditions is available through [CocoaPods](http://cocoapods.org), to inst
 it simply add the following line to your Podfile:
 
     pod "GTUIKitAdditions"
+    
+## Known Issues
+
+### GTDynamicCollectionViewFlowLayout
+
+* GTDynamicCollectionViewFlowLayout doesn't properly layout cells when the scrollDirection changes.
 
 ## Author
 
