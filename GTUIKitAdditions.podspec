@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "GTUIKitAdditions"
-  s.version      = "0.1.1"
+  s.version      = "0.2.0"
   s.summary      = "GTUIKitAdditions is a collection of classes that extend or add-up to those provided by Apple in UIKit."
   s.description  = <<-DESC
                     GTUIKitAdditions is a collection of classes that extend or add-up to those provided by Apple in UIKit.
@@ -15,11 +15,10 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '7.0'
   s.ios.deployment_target = '7.0'
   #s.osx.deployment_target = '10.7'
-  #s.dependency 'GTFoundation', '~> 0.1.0'
   
-  #s.resources = 'Assets'
+  s.resources = 'Assets'
   s.source_files = 'Classes/**/*'
-  #s.ios.exclude_files = 'Classes/osx'
-  #s.osx.exclude_files = 'Classes/ios'
+  s.ios.exclude_files = 'Classes/osx'
+  s.osx.exclude_files = 'Classes/ios'
   s.public_header_files = 'Classes/**/*.h'
 end

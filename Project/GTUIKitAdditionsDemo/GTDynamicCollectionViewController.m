@@ -63,7 +63,11 @@
 
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
 {
-    [self toggleHorizontalLayout];
+    GTActionSheet *actionSheet = [[GTActionSheet alloc] initWithTitle:nil cancelButtonTitle:@"Cancel"];
+    [actionSheet addButtonWithTitle:@"Flip Layout" selectionBlock:^{
+        [self toggleHorizontalLayout];
+    }];
+    [actionSheet show];
 }
 
 @end

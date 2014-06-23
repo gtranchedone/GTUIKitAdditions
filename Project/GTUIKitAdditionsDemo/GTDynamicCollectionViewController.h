@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <GTUIKitAdditions/GTDynamicCollectionViewFlowLayout.h>
+#import <GTUIKitAdditions/GTUIKitAdditions.h>
 
 @interface GTDynamicCollectionViewController : UICollectionViewController
 

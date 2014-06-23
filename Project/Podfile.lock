@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../GTUIKitAdditions.podspec
 
 SPEC CHECKSUMS:
-  GTUIKitAdditions: 4b5262bc3ecfc24a0352ad8945131aa834f6e724
+  GTUIKitAdditions: db607bbd5266b6a19485fa8e578a6ae7467ba71c
 
 COCOAPODS: 0.29.0
